@@ -1,0 +1,16 @@
+﻿<Window x:Class="Sission3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sission3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Абонент" HorizontalAlignment="Left" Margin="341,63,0,0" VerticalAlignment="Top" Width="126" Height="35"/>
+        <Button Content="Телефоны абонентов" HorizontalAlignment="Left" Margin="341,128,0,0" VerticalAlignment="Top" Width="126" Height="35"/>
+        <Button Content="Тарифы" HorizontalAlignment="Left" Margin="341,198,0,0" VerticalAlignment="Top" Width="126" Height="35" RenderTransformOrigin="0.496,0.53" Click="Button_Click"/>
+        <Button x:Name="Btn_Razgovor" Content="Разговоры" HorizontalAlignment="Left" Margin="341,260,0,0" VerticalAlignment="Top" Width="126" Height="35" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
